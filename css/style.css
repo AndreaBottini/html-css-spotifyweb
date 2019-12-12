@@ -88,6 +88,10 @@ body {
   height: 100%;
   background: blue;
 }
+
+.spotify_logo {
+  width: 50%;
+}
 .main-nav-header {
   background-color: purple;
 }
