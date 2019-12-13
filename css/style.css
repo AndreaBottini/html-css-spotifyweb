@@ -17,6 +17,33 @@ body {
   padding-top: 20px;
 }
 
+.playlist {
+  display: inline-block;
+
+}
+
+.title_h6 {
+  font-weight: bold;
+  color: white;
+}
+
+.fa-plus {
+  font-size: 15px;
+  background-color: grey;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(60%, 50%);
+  color: black;
+}
+
+
+.container_plus {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  background-color: grey;
+}
 
 .wrapper {
   width: 100%;
@@ -85,7 +112,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 320px;
+  width: 250px;
   height: 100%;
   background: blue;
 }
@@ -100,22 +127,31 @@ body {
 .icon_menu {
   vertical-align: middle;
   line-height: 20px;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: bold;
 }
 
 .img_menu {
-  height: 30px;
+  height: 25px;
+  color: #717171;
+}
+
+.img_menu:hover {
+  color: white;
 }
 
 .icon_menu a {
   line-height: 20px;
   text-decoration: none;
+  color: #717171;
+}
+
+.icon_menu a:hover {
   color: white;
 }
 
 .icon_menu li {
-  padding-top: 15px;
+  padding-top: 20px;
   list-style: none;
   text-decoration: none;
 }
@@ -136,7 +172,7 @@ body {
 
 /* main content */
 .main-content {
-  width: calc(100% - 320px);
+  width: calc(100% - 250px);
   height: 100%;
   background-color: orange;
   overflow-y: scroll;
@@ -148,7 +184,7 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: calc(100% - 320px);
+  width: calc(100% - 250px);
   height: 90px;
   padding: 5px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -218,7 +254,7 @@ body {
 }
 
 .artist_on_play {
-  width: 320px;
+  width: 250px;
   height: 90px;
   background-color: yellow;
 }
