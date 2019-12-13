@@ -100,17 +100,24 @@ body {
 .icon_menu {
   vertical-align: middle;
   line-height: 20px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .img_menu {
-  width: 10%;
+  height: 30px;
 }
+
 .icon_menu a {
   line-height: 20px;
+  text-decoration: none;
+  color: white;
 }
 
 .icon_menu li {
   padding-top: 15px;
+  list-style: none;
+  text-decoration: none;
 }
 
 .main-nav-main {
