@@ -201,6 +201,12 @@ body {
   background: black;
 }
 
+@media screen and (max-width: 768px) {
+  .main-nav {
+    width: 100px;
+  }
+}
+
 .spotify_logo {
   width: 50%;
 }
@@ -400,9 +406,28 @@ body {
   background-color: lightgreen;
 }
 
-@media and screen (max-width: 768px){
+.logo_container {
+  width: 100%;
+}
 
+.logo_container>img {
+  max-width:100%;
+}
+
+.spotify_logo_small {
+  height: 40px;
+}
+
+@media screen and (max-width: 768px){
+  .spotify_logo {
+    display: none;
+  }
+
+
+}
+
+@media screen and (min-width: 769px) {
   .spotify_logo_small {
-    width: 10%;
+    display: none;
   }
 }
