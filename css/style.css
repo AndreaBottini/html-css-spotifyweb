@@ -103,11 +103,14 @@ body {
 }
 
 .img_menu {
-  height: 45px;
-  /* padding-top: 15px; */
+  width: 10%;
 }
-.img_menu a {
+.icon_menu a {
   line-height: 20px;
+}
+
+.icon_menu li {
+  padding-top: 15px;
 }
 
 .main-nav-main {
