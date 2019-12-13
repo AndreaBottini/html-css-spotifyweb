@@ -48,7 +48,7 @@ body {
 
 .creation_playlist {
   padding-left: 40px;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: bold;
   color: #717171;
   line-height: 30px;
@@ -61,16 +61,42 @@ body {
 
 .playlist_choose {
   color: #717171;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: bold;
 }
 
-.playlist_choose li:not:first-child{
+.playlist_choose li:not(:first-child){
   padding-top: 15px;
 }
 
 .playlist_choose a {
   text-decoration: none;
+}
+
+.main-nav-footer {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.img_download {
+  height: 15px;
+  padding-right: 3px;
+  color: #717171;
+}
+
+.download {
+  vertical-align: middle;
+  line-height: 20px;
+  font-size: 10px;
+  font-weight: bold;
+  border-bottom: 1px solid #717171;
+}
+
+.download a {
+  text-decoration: none;
+  font-size: 10px;
+  color: #717171;
 }
 
 .wrapper {
