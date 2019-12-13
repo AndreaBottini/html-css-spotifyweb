@@ -92,12 +92,6 @@ body {
   color: white;
 }
 
-.main-nav-footer {
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-right: 10px;
-}
-
 .img_download {
   height: 15px;
   padding-right: 3px;
@@ -346,8 +340,47 @@ body {
 .artist_on_play {
   width: 250px;
   height: 90px;
-  background-color: yellow;
+  background-color: #282828;
+  padding-left: 10px;
+  padding-top: 25px;
 }
+
+.play_song {
+  display: flex;
+}
+
+.play_song img{
+  height: 35px;
+}
+
+.footer_title {
+  font-size: 10px;
+  margin-bottom: 0;
+  padding-left: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.name_artist a {
+  font-size: 9px;
+  padding-left: 5px;
+  margin-top: 0;
+  text-decoration: none;
+  color: grey;
+}
+
+.icon_footer {
+  padding-left: 100px;
+  padding-top: 15px;
+}
+
+.icon_footer a {
+  color: grey;
+}
+
+/* .info_song {
+  font-size: 10px;
+} */
 
 .control_song {
   width: 1000px;
