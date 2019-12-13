@@ -6,6 +6,7 @@
 
 body {
   background-color: black;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .padding_10 {
@@ -95,15 +96,26 @@ body {
 .main-nav-header {
   background-color: purple;
 }
+
+.icon_menu {
+  width: 9%;
+  padding-top: 10px;
+}
+
+.link_menu {
+  padding-left: 2px;
+  margin-top: 10px;
+}
+
 .main-nav-main {
   min-height: 150px;
   overflow-y: auto;
   flex-grow: 2;
   background-color: lime;
 }
-.playlist {
+/* .playlist {
 
-}
+} */
 
 .main-nav-footer {
   background-color: brown;
