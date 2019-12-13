@@ -204,6 +204,7 @@ body {
 .spotify_logo {
   width: 50%;
 }
+
 .main-nav-header {
   background-color: black;
 }
@@ -392,4 +393,11 @@ body {
   width: 320px;
   height: 90px;
   background-color: lightgreen;
+}
+
+@media and screen (max-width: 768px){
+
+  .spotify_logo_small {
+    width: 10%;
+  }
 }
