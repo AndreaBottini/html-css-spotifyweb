@@ -207,17 +207,11 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
+
   .main-nav {
     width: 100px;
   }
 
-  .main-content {
-    width: calc(100% - 100px);
-  }
-
-  .footer {
-    width: 100%;
-  }
 }
 
 .spotify_logo {
@@ -267,6 +261,7 @@ h3 {
   background-color: black;
 }
 
+
 .main-nav-footer {
   background-color: black;
 }
@@ -278,6 +273,15 @@ h3 {
   background-color: #121212;
   overflow-y: scroll;
 }
+
+@media screen and (max-width: 768px) {
+
+  .main-content {
+    width: calc(100% - 100px);
+  }
+
+}
+
 .call-to-action {
   position: fixed;
   top: 0;
@@ -475,7 +479,7 @@ h3 {
 }
 
 .icon_footer {
-  padding-left: 100px;
+  padding-left: 50px;
   padding-top: 15px;
 }
 
@@ -488,15 +492,57 @@ h3 {
 } */
 
 .control_song {
-  width: 1000px;
+  width: 1080px;
   height: 90px;
-  background-color: blue;
+  background-color: #282828;
 }
 
 .airplay {
-  width: 320px;
+  width: 360px;
   height: 90px;
-  background-color: lightgreen;
+  background-color: #282828;
+}
+
+.list_player {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.list_player li {
+  list-style: none;
+}
+
+.list_player li i {
+  padding: 20px;
+  color: white;
+  vertical-align: middle;
+  line-height: 20px;
+}
+
+.list_player .big {
+  font-size: 30px;
+}
+
+.timer_song {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.timer_song p {
+  margin: -10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.line_time {
+  width: 50%;
+  height: 100%;
+  border: 3px solid white;
+  border-radius: 3px;
 }
 
 .logo_container {
@@ -516,11 +562,12 @@ h3 {
     display: none;
   }
 
-
 }
 
 @media screen and (min-width: 769px) {
   .spotify_logo_small {
     display: none;
   }
+
+
 }
