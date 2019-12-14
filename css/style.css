@@ -346,9 +346,9 @@ h3 {
 .list_artist {
   position: relative;
   width: 200px;
-  height: 270px;
-  border: 1px solid black;
+  height: 250px;
   margin: 6px;
+  cursor: pointer;
 }
 
 .list_artist img {
@@ -366,14 +366,30 @@ h3 {
   color: grey;
 }
 
-.layover {
+.list_artist .layover {
+  display: none;
   position: absolute;
-  background-color: red;
   top: 0;
   left: 0;
-  transform: translate(50%, 50%);
   width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
 }
+
+.list_artist .layover i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+}
+
+.list_artist:hover .layover {
+  display: block;
+}
+
+
 
 .list_artist_pop {
   width: 100px;
