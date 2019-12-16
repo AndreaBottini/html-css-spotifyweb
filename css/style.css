@@ -595,7 +595,7 @@ h3 {
   transform: translate(-3%, -50%);
   width: 20%;
   height: 1px;
-  border: 3px solid lime;
+  border: 3px solid grey;
   border-radius: 3px;
 }
 
@@ -612,7 +612,7 @@ h3 {
 }
 
 .timer_song .line_time:hover .time_elapsed {
-  background-color: lime;
+  border: 3px solid lime;
 }
 
 .timer_song:hover .round {
@@ -652,12 +652,16 @@ h3 {
   transform: translate(-10%, -50%);
   width: 20%;
   height: 1px;
-  border: 3px solid lime;
+  border: 3px solid grey;
   border-radius: 3px;
 }
 
 .line_right:hover .round{
   display: block;
+}
+
+.control_volume .line_right:hover .line_volume{
+  border: 3px solid lime;
 }
 
 .logo_container {
