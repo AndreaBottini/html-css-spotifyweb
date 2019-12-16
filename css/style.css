@@ -531,9 +531,9 @@ h3 {
   color: grey;
 }
 
-/* .info_song {
-  font-size: 10px;
-} */
+.icon_footer a:hover {
+  color: white;
+}
 
 .control_song {
   width: 1110px;
