@@ -362,6 +362,7 @@ h3 {
 .list-inline ul li {
   list-style: none;
   display: inline-block;
+
 }
 
 .list-inline ul li a {
@@ -373,6 +374,10 @@ h3 {
 
 .list-inline a:hover {
   color: white;
+}
+
+.underline {
+  border-bottom: 3px solid lime;
 }
 
 .choose_music {
