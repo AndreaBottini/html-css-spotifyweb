@@ -254,6 +254,13 @@ h3 {
   text-decoration: none;
 }
 
+.icon_menu li:active,
+.icon_menu li:focus {
+  border-left: 2px solid lime;
+  height: -4px;
+
+}
+
 .main-nav-main {
   min-height: 150px;
   overflow-y: auto;
@@ -294,6 +301,14 @@ h3 {
   padding: 5px;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+@media screen and (max-width: 768px) {
+
+  .call-to-action {
+    width: calc(100% - 100px);
+  }
+}
+
 .btn {
   display: inline-block;
   font-size: 12px;
@@ -539,10 +554,46 @@ h3 {
 }
 
 .line_time {
+  position: relative;
   width: 50%;
-  height: 100%;
-  border: 3px solid white;
+  height: 1px;
+  border: 3px solid lightgrey;
   border-radius: 3px;
+}
+
+.time_elapsed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-3%, -50%);
+  width: 20%;
+  height: 1px;
+  border: 3px solid lime;
+  border-radius: 3px;
+}
+
+.airplay {
+  display: flex;
+  padding: 40px;
+}
+
+.airplay i {
+  padding-left: 20px;
+  color: lightgrey;
+}
+
+.control_volume {
+  height: 1px;
+  width: 50%;
+  border: 3px solid lightgrey;
+  border-radius: 3px;
+  margin-left: 20px;
+  display: inline;
+  margin-top: 5px;
+}
+
+.line_right {
+  background-color: lightgrey;
 }
 
 .logo_container {
